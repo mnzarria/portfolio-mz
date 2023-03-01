@@ -1,0 +1,52 @@
+.explorer {
+    /* background: var(--explorer-bg); */
+    background-color: #1f2428;
+    width: 18vw;
+    min-width: 170px;
+    /* color: rgb(225, 228, 232); */
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    padding-left: 5px;
+    font-size: 14px;
+    border-right: solid 1px #1c2024;
+    border-left: solid 1px #1c2024;
+  }
+  
+  ul{
+    padding-left: 10px !important;
+  }
+    ul li{
+    list-style-type: none;
+    margin: 10px;
+    height: 25px;
+    display: flex;
+    padding-top: 3px;
+  }
+
+  ul li:hover, ul li a:hover{
+    background-color: #666565;
+    color: white;
+  }
+
+  ul li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .expIcon{
+    font-size: 20px;
+    width: 25px;
+    vertical-align: middle;
+  }
+
+  .botonCerrar:hover{
+    display: none;
+    color: red;
+  }
+     /* Mobile */
+     @media screen and (max-width: 600px) {
+      .explorer{
+        display: none;
+      }
+    }

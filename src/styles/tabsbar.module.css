@@ -1,0 +1,22 @@
+.tabs {
+    display: flex;
+    /* background: var(--tabs-bg); */
+    height: 45px;
+    background-color: #1f2428;
+    overflow-x: hidden;
+    /* position: relative; */
+    /* z-index: 3; */
+  }
+
+  @media screen and (max-width: 900px) {
+    .tabs {
+      width: 78vw;
+    }
+  }
+  
+  /* Mobile */
+   @media screen and (max-width: 600px) {      
+    .tabs{
+      display: none;
+    }
+  }

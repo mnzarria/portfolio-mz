@@ -1,0 +1,23 @@
+.sideItem {
+    padding: 8px 15px;  
+    max-width: 400px;
+    background-color: #282f34;
+    color: grey;
+    display: flex;
+    align-items: flex-start;
+    border-right: 1px solid #252a2c;
+    /* background: var(--tabs-bg); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+  }
+
+.active {
+  border-left: 2px solid #9cd79c;
+  /* background: var(--tab-active-bg); */
+  color: white;
+  background-color: #20262a;
+}
+
+.icon{
+  font-size: 25px;
+  padding-top: 3px;
+}

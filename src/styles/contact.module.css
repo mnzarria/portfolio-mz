@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* Titlebar: 30px / Tabsbar: 45px/ Bottombar: 25px*/
+    height: calc(100vh - 100px);
+    color: white;
+    overflow-y: auto;
+}
+.contactForm{  
+    min-width: 500px;
+    width: 50%;
+    /* color: #f2c14e; */
+    color: #4ea8f2;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.contactRedes{
+    width: 50%;
+    min-width: 500px;
+    padding: 20px;
+}
+
+.container {
+    scrollbar-width: 10px;
+    scrollbar-color: white;
+}
+  
+.container::-webkit-scrollbar {
+    width: 15px;
+}
+    
+.container::-webkit-scrollbar-track {
+    background: #1e1f29;
+    border-left: 1px solid #1e1f29;
+}
+    
+.container::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-left: 1px solid #1e1f29;
+}
+
+.contactForm .label{
+    padding: 0px;
+    background-color: #24292e;
+    border: 0px;
+    /* color: #4ea8f2; */
+    height: 25px;
+    margin: 2px;
+}
+
+.contactForm .control{
+    padding: 0px 30px;
+    background-color: #1e1f29;
+    border: 0px;
+    color: #4ea8f2;
+    height: 20px;
+    border-radius: 0px;
+}
+
+.contactForm .control:focus, .contactForm .mensaje:focus{
+    padding: 0px 30px;
+    background-color: #282f34;
+    border: 0px;
+    color: #4ea8f2;
+    box-shadow: 0 0 0;
+}
+.contactForm .mensaje{
+    padding: 0px 30px;
+    background-color: #1e1f29;
+    border: 0px;
+    color: #4ea8f2;
+    border-radius: 0px;
+}
+
+.contactForm .title, .contactRedes .title{
+    color: rgb(18, 120, 18);
+    margin: 0px;
+}
+
+.contactRedes ul li {
+    margin: 10px;
+    height: auto;
+}
+.contactRedes ul li:hover {
+    background-color: #282f34;
+}
+.contactRedes ul li:hover a{
+    background-color: #282f34;
+    color: white;
+}
+
+.contactRedes ul li .icon{
+    font-size: 25px;
+    margin-right: 5px;
+    color: #4ea8f2;
+}
+
+.contactRedes ul li:hover .icon{
+    transform: translateY(-2px);
+    color: #f2c14e;
+
+}
+.contactForm button{
+    border-radius: 0px;
+    background-color: #4ea8f2;
+    color: #282f34;
+    font-weight: 500;
+    border: 0px;
+}
+
+.contactForm button:hover{
+    transform: translateY(-2px);
+    background-color: #f2c14e;
+    color: #1e1f29;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: auto;
+        height: calc(100vh - 55px);
+    }
+
+    .contactForm{  
+        min-width: 80vw;
+        padding: 0px 10px;
+    }
+    .title{
+        width: 600px;
+        padding: 10px 30%;
+    }
+    .contactForm button{
+        width: 100%;
+    }
+  }

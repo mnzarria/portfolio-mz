@@ -1,0 +1,157 @@
+  .container {
+        width: auto;
+        /* Titlebar: 30px / Tabsbar: 45px/ Bottombar: 25px* / UpDownButtons: 30px = Total 130px*/
+        height: calc(100vh - 100px);
+        overflow: hidden;
+        position: relative;
+        scroll-snap-align: start;
+  }
+  
+  .container .column {
+      width: 25%;
+      height: 100%;
+      float: left;
+      border-right: 2px solid rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+      z-index: 0;
+  }
+   
+  .container .column .content {
+      position: relative;
+      height: 100%;
+  }
+  
+  .container .column .content h1 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      background: rgba(0, 0, 0, .1);
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      color: rgba(255, 255, 255, .2);
+      font-size: 15em;
+      border-top: 2px solid rgba(0, 0, 0, 0.5);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+      z-index: 1;
+  }
+  
+  .container .column .content .box {
+      position: absolute;
+      top: 50%;
+      transform: translateY(100%);
+      box-sizing: border-box;
+      padding: 25px;
+      background: #262626;
+      text-align: center;
+      transition: 0.5s;
+      opacity: 0;
+      z-index: 1;
+  }
+  
+  .container .column:hover .content .box {
+      opacity: 90%;
+      transform: translateY(-50%);
+      z-index: 5;
+  }
+  
+  .container .column .content .box h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+      color: white;
+  }
+  
+  .container .column .content .box p {
+      color: white;
+      font-size: 14px;
+  }
+
+  .container .column .content .box button {
+        margin: 5px 5px;
+    }
+
+    .container .column .content .box button a{
+        text-decoration: none;
+        color: inherit;
+    }
+  
+  .container .column .bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: -1;
+  }
+  
+    /* SCREENSHOTS DE CADA PROYECTO*/
+    /*Los primeros 3 con opacity 60-70% y describen el proyecto*/
+    .container #column1:hover .bg {
+    opacity: 70%;
+    background-position: center;
+    transition: 0.5s;
+    z-index: 3;
+  }
+  .container #column2:hover .bg {
+      opacity: 70%;
+      background-position: center;
+      transition: 0.5s;
+      z-index: 3;
+  }
+  .container #column3:hover .bg {
+        opacity: 70%;
+        background-position: center;
+        transition: 0.5s;
+        z-index: 3;
+  }
+
+  /*El ultimo va con opacity 90% y contiene los links hacia web y repo*/
+  .container #column4:hover .bg {
+        opacity: 90%;
+        background-position: center;
+        transition: 0.5s;
+        z-index: 3;
+  }
+
+    /* Mobile */
+    @media screen and (max-width: 600px) {
+        .column{
+            display: none;
+        }
+        .columnMob .carousel{
+            min-height: 100vh;
+            display: flex  ;
+            flex-direction: column;
+            padding: 20px 0px;
+        }
+        .carousel .card{
+            border: 0px;
+            border-radius: 5px;
+            background-color: #24292e;
+        }
+        .carousel .carouselItem .cardbody{
+            color: white;
+            height: auto;
+            background-color: #262626d3;
+            transform: translateY(-100%);
+            padding: 10px;
+        }
+        .carousel .carouselItem .cardbody button {
+            margin: 5px 5px;
+        }
+    
+        .carousel .carouselItem .cardbody button a{
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+      /* Desktop */
+    @media screen and (min-width: 600px) {
+        .columnMob{
+            display: none;
+        }
+      }

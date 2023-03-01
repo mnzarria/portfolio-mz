@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* Titlebar: 30px / Tabsbar: 45px/ Bottombar: 25px* / UpDownButtons: 30px = Total 130px*/
+    height: calc(100vh - 100px);
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background-image: url('../assets/img/code_background.png');
+    background-size: cover;
+    }
+  
+  .name {
+    color: #eee;
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.545);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .name:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .description:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .description {
+    color: #eee;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0, 0, 0, 0.545);
+    position: relative;
+  }
+  
+  /* Desktop */
+  /* @media screen and (min-width: 2000px) {
+    .background {
+      font-size: 8.5rem;
+    }
+    .content {
+      padding: 0 3rem;
+    }
+    .name {
+      font-size: 6rem;
+    }
+    .description {
+      font-size: 3rem;
+      margin-bottom: 5rem;
+    }
+    .button {
+      font-size: 2rem;
+    }
+    .outlined {
+      font-size: 2rem;
+    }
+
+  } */
+  
+  /* Mobile */
+  @media screen and (max-width: 600px) {
+    .container {
+      height: 100%;
+    }
+    .name {
+      font-size: 40px;
+    }
+    .description {
+      font-size: 25px;
+    }
+  }
+  
+
+  /* iPad Pro */
+  /* @media screen and (max-width: 1100px) {
+    .background {
+      display: none;
+    }
+    .container {
+      display: block;
+    }
+    .foreground {
+      margin: 4rem 0;
+      display: block;
+      text-align: center;
+    }
+    .name {
+      font-size: 40px;
+    }
+    .description {
+      font-size: 1.75rem;
+      margin: 0.75rem auto 3rem;
+    }
+
+  } */
+  
+  /* iPad */
+  /* @media screen and (max-width: 900px) {
+    .foreground {
+      margin: 2rem 0;
+    }
+    .name {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .description {
+      font-size: 1.5rem;
+    }
+  } */
+  
+  @media screen and (orientation: landscape) and (max-width: 1050px) {
+    .container {
+      display: flex;
+    }
+    .illustration {
+      display: none;
+    }
+  }
+  

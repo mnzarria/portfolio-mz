@@ -1,0 +1,33 @@
+.projects{
+    z-index: 0;
+    height: calc(100vh - 100px);
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.projects {
+    scrollbar-width: 10px;
+    scrollbar-color: white;
+}
+  
+.projects::-webkit-scrollbar {
+    width: 15px;
+}
+    
+.projects::-webkit-scrollbar-track {
+    background: #1e1f29;
+    border-left: 1px solid #1e1f29;
+}
+    
+.projects::-webkit-scrollbar-thumb {
+    background: darkgray;
+    border-left: 1px solid #1e1f29;
+}
+
+
+  /* Mobile */
+@media screen and (max-width: 600px) {
+    .projects::-webkit-scrollbar {
+        width: 0px;
+    }
+}
