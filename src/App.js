@@ -13,14 +13,14 @@ import React from 'react';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Layout>
         <Routes>
-          <Route path='/' element = {<Index/>}/>
-          <Route path='/about' element = {<About/>}/>
-          <Route path='/skills' element = {<Skills/>}/>
-          <Route path='/contact' element = {<Contact/>}/>
-          <Route path='/projects' element = {<Projects/>}/>
+          <Route path= '/' element = {<Index/>}/>
+          <Route path= '/about' element = {<About/>}/>
+          <Route path= '/skills' element = {<Skills/>}/>
+          <Route path= '/contact' element = {<Contact/>}/>
+          <Route path= '/projects' element = {<Projects/>}/>
         </Routes>
       </Layout>
     </BrowserRouter>
