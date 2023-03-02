@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9155dd33256dab318c95",
-    "url": "/portfolio-mz/static/css/main.a092a00a.chunk.css"
+    "revision": "44af0a4dad169b83bc86",
+    "url": "/portfolio-mz/static/css/main.fd7661a8.chunk.css"
   },
   {
-    "revision": "9155dd33256dab318c95",
-    "url": "/portfolio-mz/static/js/main.9155dd33.chunk.js"
+    "revision": "44af0a4dad169b83bc86",
+    "url": "/portfolio-mz/static/js/main.44af0a4d.chunk.js"
   },
   {
     "revision": "d3406d199b610b0527b6",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/portfolio-mz/static/media/code_background.4c517ff9.png"
   },
   {
-    "revision": "a0f33ad8ad533f1dd3a77bf2f100edae",
-    "url": "/portfolio-mz/static/media/VSCicon.a0f33ad8.svg"
+    "revision": "64fc964e876af30343460a4ecb868cf1",
+    "url": "/portfolio-mz/static/media/VSCicon.64fc964e.svg"
   },
   {
     "revision": "9fc1f3e2becd1e9a36651173a69bc99a",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/portfolio-mz/static/media/portfolio_2_mob.e3623381.png"
   },
   {
-    "revision": "d68a5285d784fc80d7336af4fd8a86fc",
+    "revision": "124ccbb44a0e15fc5d7a33f9f56c301d",
     "url": "/portfolio-mz/index.html"
   }
 ];
