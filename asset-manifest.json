@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio-mz/static/css/main.a7b73e6b.chunk.css",
-  "main.js": "/portfolio-mz/static/js/main.4b78568b.chunk.js",
-  "main.js.map": "/portfolio-mz/static/js/main.4b78568b.chunk.js.map",
+  "main.js": "/portfolio-mz/static/js/main.65c7568d.chunk.js",
+  "main.js.map": "/portfolio-mz/static/js/main.65c7568d.chunk.js.map",
   "static/js/1.276fde6a.chunk.js": "/portfolio-mz/static/js/1.276fde6a.chunk.js",
   "static/js/1.276fde6a.chunk.js.map": "/portfolio-mz/static/js/1.276fde6a.chunk.js.map",
   "static/css/2.998ed96b.chunk.css": "/portfolio-mz/static/css/2.998ed96b.chunk.css",
@@ -12,7 +12,7 @@
   "static/media/index.module.css": "/portfolio-mz/static/media/code_background.4c517ff9.png",
   "static/media/VSCicon.svg": "/portfolio-mz/static/media/VSCicon.64fc964e.svg",
   "static/media/foto-perfil.jpg": "/portfolio-mz/static/media/foto-perfil.9fc1f3e2.jpg",
-  "static/media/CV_MZ_FEB_23.pdf": "/portfolio-mz/static/media/CV_MZ_FEB_23.252ecf37.pdf",
+  "static/media/CV_MZ_FEB_23.pdf": "/portfolio-mz/static/media/CV_MZ_FEB_23.d41e1b73.pdf",
   "static/media/cert_reactjs.png": "/portfolio-mz/static/media/cert_reactjs.14b0d33e.png",
   "static/media/cert_testing.png": "/portfolio-mz/static/media/cert_testing.e8c16d71.png",
   "static/media/cert_web_dev.png": "/portfolio-mz/static/media/cert_web_dev.e7d49226.png",
@@ -42,6 +42,6 @@
   "static/css/main.a7b73e6b.chunk.css.map": "/portfolio-mz/static/css/main.a7b73e6b.chunk.css.map",
   "static/css/2.998ed96b.chunk.css.map": "/portfolio-mz/static/css/2.998ed96b.chunk.css.map",
   "index.html": "/portfolio-mz/index.html",
-  "precache-manifest.816a00cd0cfb0295158dfbfe6a2ce347.js": "/portfolio-mz/precache-manifest.816a00cd0cfb0295158dfbfe6a2ce347.js",
+  "precache-manifest.2c1dd3f7ed544be49e9f09829a499aeb.js": "/portfolio-mz/precache-manifest.2c1dd3f7ed544be49e9f09829a499aeb.js",
   "service-worker.js": "/portfolio-mz/service-worker.js"
 }

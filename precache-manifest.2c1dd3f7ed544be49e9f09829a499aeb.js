@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4b78568b6f6bc260a4d4",
+    "revision": "65c7568d2cb681563ced",
     "url": "/portfolio-mz/static/css/main.a7b73e6b.chunk.css"
   },
   {
-    "revision": "4b78568b6f6bc260a4d4",
-    "url": "/portfolio-mz/static/js/main.4b78568b.chunk.js"
+    "revision": "65c7568d2cb681563ced",
+    "url": "/portfolio-mz/static/js/main.65c7568d.chunk.js"
   },
   {
     "revision": "276fde6ab22220919785",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/portfolio-mz/static/media/foto-perfil.9fc1f3e2.jpg"
   },
   {
-    "revision": "252ecf37fd79ddb08e5e4919746ca621",
-    "url": "/portfolio-mz/static/media/CV_MZ_FEB_23.252ecf37.pdf"
+    "revision": "d41e1b7354dc522c7ebd1663432eef5d",
+    "url": "/portfolio-mz/static/media/CV_MZ_FEB_23.d41e1b73.pdf"
   },
   {
     "revision": "14b0d33e8169bc3a9a1bff463b7492f1",
@@ -144,7 +144,7 @@ self.__precacheManifest = [
     "url": "/portfolio-mz/static/media/portfolio_2_mob.e3623381.png"
   },
   {
-    "revision": "46ea3762b47f4890e3b7f224916e1fb4",
+    "revision": "823a8c27d825a06474b6f799a01103c0",
     "url": "/portfolio-mz/index.html"
   }
 ];
