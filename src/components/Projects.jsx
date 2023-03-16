@@ -62,7 +62,7 @@ const Projects = () => {
 
           <ProjectItem 
           Title = "Portfolio personal"
-          Description1 = "Este es mi portoflio personal, desarrollado desde cero con ReactJs. Intenté recrear el estilo gráfico de Visual Studio Code."
+          Description1 = "Este es mi portfolio personal, desarrollado desde cero con ReactJs. Intenté recrear el estilo gráfico de Visual Studio Code."
           Description2 = "Posee 3 barras de navegación para acceder a las distintas secciones."
           Stack1      =   "HTML"
           Stack2      =   "CSS"
