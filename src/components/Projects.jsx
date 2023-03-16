@@ -77,8 +77,8 @@ const Projects = () => {
           Img1mob      =   {p3img1mob}
           Img2mob      =   {p3img2mob}
           Img3mob      =   {p3img3mob}
-          // WebLink     =   ""
-          // CodeLink    =   ""
+          WebLink     =   "https://mnzarria.github.io/portfolio-mz/"
+          CodeLink    =   "https://github.com/mnzarria/portfolio-mz"
           />
         
     </div>

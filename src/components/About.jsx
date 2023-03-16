@@ -15,7 +15,7 @@ const About = () => {
                 <div className={estilo.divPerfil}>
                     <img src={fotoPerfil} alt="foto-perfil" className={estilo.fotoPerfil}/>
                     <h3>Matías Zarria</h3>
-                    <Button className={estilo.button} href="/contact">Contacto</Button>
+                    <Button className={estilo.button}><Link className={estilo.link} to="/contact">Contacto</Link></Button>
                     <Button className={estilo.button}><Link className={estilo.link} to={cv} target="_blank" download>Descargar CV</Link></Button>
                 </div>
                 <div className={estilo.divText}>

@@ -8,10 +8,11 @@ import {BsLinkedin, BsGithub, BsEnvelopeFill} from "react-icons/bs"
 const Contact = () => {
   return (
     <div className={estilo.container}>
-      <div className={estilo.contactForm}>
+      
+{/*       <div className={estilo.contactForm}>
         <Form>
           <Form.Label className={estilo.title}>
-          /* ENVIAR UN MENSAJE */
+          ENVIAR UN MENSAJE
           </Form.Label>
           <Form.Group>
             <Form.Label className={estilo.label}>.nombre {"{"}</Form.Label>
@@ -53,7 +54,7 @@ const Contact = () => {
           <Button type="submit">Enviar mensaje</Button>
         </Form>
         
-      </div>
+      </div> */}
       <div className={estilo.contactRedes}>
         <p className={estilo.title}>/* REDES */</p>
         <ul>

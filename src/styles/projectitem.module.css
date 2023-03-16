@@ -50,8 +50,8 @@
       z-index: 1;
   }
   
-  .container .column:hover .content .box {
-      opacity: 90%;
+  .container .column .content:hover .box {
+      opacity: 0.9;
       transform: translateY(-50%);
       z-index: 5;
   }
@@ -90,19 +90,19 @@
     /* SCREENSHOTS DE CADA PROYECTO*/
     /*Los primeros 3 con opacity 60-70% y describen el proyecto*/
     .container #column1:hover .bg {
-    opacity: 70%;
+    opacity: 0.7;
     background-position: center;
     transition: 0.5s;
     z-index: 3;
   }
   .container #column2:hover .bg {
-      opacity: 70%;
+      opacity: 0.7;
       background-position: center;
       transition: 0.5s;
       z-index: 3;
   }
   .container #column3:hover .bg {
-        opacity: 70%;
+        opacity: 0.7;
         background-position: center;
         transition: 0.5s;
         z-index: 3;
@@ -110,7 +110,7 @@
 
   /*El ultimo va con opacity 90% y contiene los links hacia web y repo*/
   .container #column4:hover .bg {
-        opacity: 90%;
+        opacity: 0.9;
         background-position: center;
         transition: 0.5s;
         z-index: 3;

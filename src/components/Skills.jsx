@@ -2,18 +2,18 @@ import React, { useState } from "react";
 import ListGroup from "react-bootstrap/ListGroup";
 import Container from "react-bootstrap/Container";
 import Card from 'react-bootstrap/Card';
-import {  AiFillHtml5,  AiOutlineCheckSquare,  AiOutlineConsoleSql,} from "react-icons/ai";
-import { BiGitBranch, BiListCheck, BiHomeHeart } from "react-icons/bi";
+import {  AiFillHtml5, AiOutlineConsoleSql} from "react-icons/ai";
+import { BiGitBranch, BiHomeHeart } from "react-icons/bi";
 import { BsBarChartSteps } from "react-icons/bs";
 import {  FaCss3Alt,  FaBootstrap,  FaSass,  FaReact,  FaNodeJs,} from "react-icons/fa";
 import { GrGroup, GrLanguage } from "react-icons/gr";
 import { GiTalk, GiBookshelf } from "react-icons/gi";
 import { MdReportProblem } from "react-icons/md";
-import {  SiJavascript,  SiFirebase,  SiJirasoftware,  SiPostman,  SiMongodb,} from "react-icons/si";
+import {  SiJavascript,  SiFirebase,  SiJirasoftware,  SiPostman,  SiMongodb,SiSelenium, SiApachejmeter} from "react-icons/si";
 import estilo from "../styles/skills.module.css";
 import Carousel from 'react-bootstrap/Carousel';
 import cert1 from '../assets/img/cert_reactjs.png'
-import cert2 from '../assets/img/cert_crash_course_python.png'
+import cert2 from '../assets/img/cert_testing.png'
 import cert3 from '../assets/img/cert_web_dev.png'
 import cert4 from '../assets/img/cert_git.png'
 import cert5 from '../assets/img/cert_js.png'
@@ -22,6 +22,8 @@ import cert7 from '../assets/img/cert_using_python.png'
 import cert8 from '../assets/img/cert_conf_management.png'
 import cert9 from '../assets/img/cert_eng_project.png'
 import cert10 from '../assets/img/cert_english.png'
+import cert11 from '../assets/img/cert_crash_course_python.png'
+
 
 
 const Skills = () => {
@@ -53,8 +55,8 @@ const Skills = () => {
               <Card className={estilo.card}>
                 <Card.Img src={cert2}/>
                 <Card.Body className={estilo.cardbody}>
-                  <Card.Title>Crash Course on Python</Card.Title>
-                  <Card.Text>Curso de Google con 26 horas asincrónicas.</Card.Text>
+                  <Card.Title>QA Testing</Card.Title>
+                  <Card.Text>Bootcamp de 160 horas sincrónicas, realizado en Mindhub.</Card.Text>
                 </Card.Body>
               </Card>
             </Carousel.Item>
@@ -138,7 +140,16 @@ const Skills = () => {
                 </Card.Body>
               </Card>
             </Carousel.Item>
-
+            
+            <Carousel.Item className={estilo.carouselItem}>
+              <Card className={estilo.card}>
+                <Card.Img src={cert11}/>
+                <Card.Body className={estilo.cardbody}>
+                  <Card.Title>Crash Course on Python</Card.Title>
+                  <Card.Text>Curso de Google con 26 horas asincrónicas.</Card.Text>
+                </Card.Body>
+              </Card>
+            </Carousel.Item>
           </Carousel>
         </div>
 
@@ -173,7 +184,7 @@ const Skills = () => {
           <ListGroup.Item active style={{ backgroundColor: "#1581e0" }}>{" "}Testing</ListGroup.Item>
           <ListGroup.Item><SiJirasoftware style={{ color: "#1581e0" }} /> Jira</ListGroup.Item>
           <ListGroup.Item><SiPostman style={{ color: "#ff5900" }} /> Postman</ListGroup.Item>
-          <ListGroup.Item><AiOutlineCheckSquare /> QA Testing</ListGroup.Item>
+          <ListGroup.Item><SiSelenium style={{ color: "green" }} /> Selenium</ListGroup.Item>
         </ListGroup>
 
         <ListGroup className={estilo.listgroup}>
@@ -187,7 +198,7 @@ const Skills = () => {
           <ListGroup.Item><FaNodeJs style={{ color: "green" }} /> Node.js</ListGroup.Item>
           <ListGroup.Item><AiOutlineConsoleSql style={{ color: "#1581e0" }} /> SQL y noSQL</ListGroup.Item>
           <ListGroup.Item><SiMongodb style={{ color: "green" }} /> MongoDB</ListGroup.Item>
-          <ListGroup.Item><BiListCheck /> Testing</ListGroup.Item>
+          <ListGroup.Item><SiApachejmeter /> JMeter</ListGroup.Item>
         </ListGroup>
         </Container>
       </div>

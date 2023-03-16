@@ -10,10 +10,9 @@ import "./styles/global.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 
-
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Layout>
         <Routes>
           <Route path= '/' element = {<Index/>}/>
@@ -23,7 +22,7 @@ function App() {
           <Route path= '/projects' element = {<Projects/>}/>
         </Routes>
       </Layout>
-    </BrowserRouter>
+    // </BrowserRouter>
   );
 }
 
